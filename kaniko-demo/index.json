@@ -1,6 +1,6 @@
 {
   "title": "Démarrer du bon pied avec Kaniko",
-  "description": "Kaniko est un outil open source permettant de constuire des images de conteneurs depuis un conteneur, sans interagir avec le démon Docker.",
+  "description": "Kaniko est un outil open source permettant de constuire des images de conteneurs depuis un conteneur, sans interagir avec le démon Docker",
   "icon": "fa-toolbox",
   "details": {
     "assets": {
