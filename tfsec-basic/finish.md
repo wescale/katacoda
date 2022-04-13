@@ -12,7 +12,7 @@ Pour en savoir plus consultez la documentation officielle [TFSec](https://aquase
 
 Vous souhaitez en savoir plus sur sur TFSec ? Nous avons rédigé un article de découverte du sujet !
 
-**AJOUTER ARTICLE ICI**
+**https://blog.wescale.fr/tfsec-decouverte/**
 
 ## Découvrez WeScale
 Retrouvez toute notre actualité :
