@@ -1,0 +1,52 @@
+{
+  "title": "TFSec - Pre-commit",
+  "description": "Venez automatiser vos scans TFSec !",
+  "difficulty": "Beginner",
+  "time": "5 minutes",
+  "icon": "fa-unlock-alt",
+  "details": {
+    "assets": {
+      "host01": [
+          {"file": "wait.sh", "chmod": "+x", "target": "/usr/local/bin/"}
+      ]
+    },
+    "steps": [
+      {
+        "title": "Etape 1 - Installer Pre-commit",
+        "text": "step1.md",
+        "verify": "scripts/step1-verify.sh"
+      },
+      {
+        "title": "Etape 2 - Configurer Pre-commit",
+        "text": "step2.md",
+        "verify": "scripts/step2-verify.sh"
+      },
+      {
+        "title": "Etape 3 - Tester Pre-commit",
+        "text": "step3.md"
+      },
+      {
+        "title": "Etape 4 - Supprimer Pre-commit",
+        "text": "step4.md"
+      },
+      {
+        "title": "Etape 5 - Quiz Pre-commit",
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "scripts/intro-foreground.sh",
+      "credits": "Formation créée par [WeScale](https://training.wescale.fr)"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "bash1804"
+  }
+}
