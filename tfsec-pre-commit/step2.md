@@ -23,5 +23,5 @@ Pour expliquer brièvement ce fichier de configuration :
 - **hooks** : La liste des hooks à exploiter dans le répertoire.
 - **id** : Le hook à utiliser dans le répertoire.
 
-Hookez **Pre-commit** à notre git :
+Liez **Pre-commit** à notre git :
 `pre-commit install`{{execute}}
