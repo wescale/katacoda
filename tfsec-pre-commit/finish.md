@@ -13,7 +13,7 @@ Pour en savoir plus, consultez les documentations officielles [TFSec](https://aq
 Vous souhaitez en savoir plus sur sur TFSec et Pre-commit ? Nous avons rédigé des articles sur ces sujets !
 
 - **Stéphane Teyssier** vous parle de **Pre-commit** et des ses intégrations **Terraform** : [Vers l'Infrastructure Craftsmanship avec les Git Hooks](https://blog.wescale.fr/vers-linfrastructure-craftsmanship-avec-les-git-hooks/)
-- Vous pouvez aussi retrouver l'article associé à ce Katacoda : **AJOUTER ARTICLE ICI**
+- Vous pouvez aussi retrouver l'article associé à ce Katacoda : **https://blog.wescale.fr/shiftleft-terraform-avec-tfsec/**
 
 
 ## Découvrez WeScale
