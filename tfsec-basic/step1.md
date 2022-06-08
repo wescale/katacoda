@@ -32,4 +32,4 @@ Vérifiez la signature :
 
 Vous devriez obtenir le résultat suivant :
 
-![Check Signature](assets/check-signature-ok.png)
+![Check Signature](./assets/check-signature-ok.png)
