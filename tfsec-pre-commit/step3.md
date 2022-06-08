@@ -1,4 +1,4 @@
-Ajoutez à l'index Git le fichier main.tf :
+Ajoutez à l'index Git le fichier `main.tf` :
 
 `git add main.tf`{{execute}}
 
