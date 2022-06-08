@@ -3,7 +3,7 @@
 show_progress()
 {
 
-  echo "Please wait until everything is ready."
+  echo "Please wait until everything is ready [~10s]"
 
   # Update packages
   echo -n "[1/4] Updating packages..."
@@ -18,19 +18,20 @@ show_progress()
 
   # Create demo git folder with a Terraform file
   echo -n "[3/4] Setting up demo environment..."
-  mkdir ./demo &> /dev/null
-  git init ./demo &> /dev/null
-cat <<EOF > ./demo/main.tf
+  git init &> /dev/null
+  git config --global user.email "hellothere@obi-wan.kenobi" &> /dev/null
+  git config --global user.name "Ewan McGregor" &> /dev/null
+cat <<EOF > ./main.tf
 resource "aws_kms_key" "this" {
   description             = "Je suis une clef KMS"
   deletion_window_in_days = 10
   enable_key_rotation     = false
 }
 EOF
-  echo " Done !"
+  echo "Done !"
 
   # Install the TFSec binary
-  echo -n "[4/4] Installating TFSec..."
+  echo -n "[4/4] Installing TFSec..."
   curl -o /usr/local/bin/tfsec -L -J -O https://github.com/aquasecurity/tfsec/releases/download/v1.1.5/tfsec-linux-amd64 &> /dev/null
   chmod u+x /usr/local/bin/tfsec
   echo " Done !"

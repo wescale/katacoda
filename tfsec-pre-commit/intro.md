@@ -1,6 +1,6 @@
 Bienvenue dans ce cours **[TFSec](https://aquasecurity.github.io/tfsec/v1.0.2/) avancé**!
 
-Si vous ne l'avez pas encore fait je vous incite à suivre la première partie de cette formation : **[TFSec Basique](https://katacoda.com/wescale/scenarios/tfsec-basic)**.
+Si vous ne l'avez pas encore fait je vous incite à suivre la première partie de cette formation : **[TFSec - Simple, Basique](https://killercoda.com/wescale/scenario/tfsec-basic)**.
 
 L'une des qualités intrinsèques de l'**IaC** est qu'elle rend l'infrastructure auditable dès sa rédaction.
 

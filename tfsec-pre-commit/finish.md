@@ -6,14 +6,16 @@ Merci d'avoir suivi ce cours, j'espère qu'il vous a plu !
 
 Nous avons vu que Pre-commit est un outil qui permet d'automatiser les scans TFSec côté client comme garde-fou bloquant.
 
-Pour en savoir plus, consultez les documentations officielles [TFSec](https://aquasecurity.github.io/tfsec/v1.1.5/) et [Pre-commit](https://pre-commit.com/)].
+Pour en savoir plus, consultez les documentations officielles [TFSec](https://aquasecurity.github.io/tfsec/v1.1.5/) et [Pre-commit](https://pre-commit.com/).
 
 ## Pour aller plus loin
 
 Vous souhaitez en savoir plus sur sur TFSec et Pre-commit ? Nous avons rédigé des articles sur ces sujets !
 
 - **Stéphane Teyssier** vous parle de **Pre-commit** et des ses intégrations **Terraform** : [Vers l'Infrastructure Craftsmanship avec les Git Hooks](https://blog.wescale.fr/vers-linfrastructure-craftsmanship-avec-les-git-hooks/)
-- Vous pouvez aussi retrouver l'article associé à ce Katacoda : **https://blog.wescale.fr/shiftleft-terraform-avec-tfsec/**
+- Vous pouvez aussi retrouver l'article associé à ce Killercoda : 
+
+https://blog.wescale.fr/shiftleft-terraform-avec-tfsec/
 
 
 ## Découvrez WeScale
