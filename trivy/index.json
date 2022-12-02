@@ -1,0 +1,56 @@
+{
+   "title":"Trivy - Simple, basique",
+   "backend":{
+      "imageid":"ubuntu20.04"
+   },
+   "details":{
+      "intro":{
+         "text":"intro.md",
+         "background":"setup.sh"
+      },
+      "steps":[
+         {
+            "title":"1/9 - Installer",
+            "text":"step1.md"
+         },
+         {
+            "title":"2/9 - Image de conteneur",
+            "text":"step2.md"
+         },
+         {
+            "title":"3/9 - IaC",
+            "text":"step3.md"
+         },
+         {
+            "title":"4/9 - Système de fichiers",
+            "text":"step4.md"
+         },
+         {
+            "title":"5/9 - Secret",
+            "text":"step5.md"
+         },
+         {
+            "title":"6/9 - Git",
+            "text":"step6.md"
+         },
+         {
+            "title":"7/9 - Configuration",
+            "text":"step7.md"
+         },
+         {
+            "title":"8/9 - SBOM",
+            "text":"step8.md"
+         },
+         {
+            "title":"9/9 - Plus loin",
+            "text":"step9.md"
+         }
+      ],
+      "finish":{
+         "text":"finish.md"
+      },
+      "assets": {
+         "host01": []
+      }
+   }
+}
